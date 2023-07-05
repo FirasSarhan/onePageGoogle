@@ -1,0 +1,194 @@
+/* start global rules */
+* {
+	box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+	font-family: arial, sans-serif;
+    background-color: #202124;
+    color: #ffffff;
+    overflow: hidden;
+
+}
+/* end global rules */
+
+/* start style header  */
+header {
+    position: relative;
+}
+header nav {
+    position: absolute;
+    right: 1rem;
+    
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+/* end style header  */
+
+/* start style main  */
+
+main {
+    display: flex !important;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    position: relative;
+}
+section .Form {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section .imgGoogle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -90%);
+    -webkit-transform: translate(-55%, -90%);
+    -moz-transform: translate(-55%, -90%);
+    -ms-transform: translate(-55%, -90%);
+    -o-transform: translate(-55%, -90%);
+}
+.Form .input {
+    border: 1px solid #5f6368;
+    border-radius: 2rem;
+    width: 35rem;
+    height: 3rem;
+}
+.Form input[type=text] {
+    position: absolute;
+    width: 28rem;
+    height: 2.5rem;
+    top: 0.2rem;
+    left: 2.5rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    caret-color: #ffffff;
+}
+.Form .input:hover {
+    border: none;
+    border-radius: 2rem;
+    width: 35rem;
+    height: 3rem;
+    background-color: #303134;
+}
+.search,
+.microphone,
+.camera {
+    width: 1.2rem;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .search {
+    position: absolute;
+    left: 1rem;
+}
+form .microphone {
+    position: absolute;
+    right: 3rem;
+}
+form .camera {
+    position: absolute;
+    right: 1rem;
+}
+.buttons {
+    position: relative;
+    top: 5rem;
+}
+.buttons .button1,
+.buttons .button2 {
+    background-color: #303134;
+    padding: 0.8rem 2rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 0.3rem;
+}
+.buttons .button1:hover,
+.buttons .button2:hover {
+    border: 1px solid #5f6368;
+}
+.language-page {
+    position: relative;
+    top: 8rem;
+    left: 6rem;
+}
+.language-page a {
+    color: #8ab4f8;
+}
+/* end style main  */
+
+/* start style footer   */
+footer {
+    position: relative;
+    top: -1rem;
+}
+.part1 {
+    position: absolute;
+    top: -5rem;
+    width: 100vw;
+    height: 3rem;
+    background-color: #171717;
+    color: #9aa0a6;
+    font-size: 1rem;
+    padding: 1rem;
+    text-indent: 1.3rem;
+    border-bottom: 1px solid #5f6368;
+}
+.part2 {
+    width: 100vw;
+    position: absolute;
+    top: -2rem;
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part2 .list2 {
+    position: relative;
+    right: 3rem;
+}
+.part2 .list1 {
+    margin-left: -2rem;
+}
+footer .list1 ul li,
+footer .list2 ul li {
+    display: inline-block;
+    list-style: none;
+}
+footer .list1 ul li a,
+footer .list2 ul li a {
+    font-size: 1rem;
+    margin-left: 2rem;
+    color: #9aa0a6;
+    text-decoration: none;
+}
+footer .list1 ul li a:hover,
+footer .list2 ul li a:hover {
+    text-decoration: underline;
+}
+/* end style footer   */
